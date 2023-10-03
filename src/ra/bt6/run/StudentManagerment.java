@@ -2,9 +2,7 @@ package ra.bt6.run;
 
 import ra.bt6.service.Student;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class StudentManagerment  {
     static List<Student> students = new ArrayList<>();
@@ -33,34 +31,32 @@ public class StudentManagerment  {
                     break;
                 case 2:
                     updateStudent(scanner);
-
                     break;
                 case 3:
-
                     deleteStudent(scanner);
                     break;
                 case 4:
                     seachStudent(String.valueOf(scanner));
                     break;
                 case 5:
-
+                    sortAnphaB();
                     break;
                 case 6:
                     displayStudent();
                     break;
                 case 7:
+                    sortPoint();
                     break;
                 case 8:
+                    sortPintMin();
                     break;
                 case 9:
                     System.out.println("Thoát chương trình");
                     System.exit(0);
                     break;
-
             }
 
         }while (choise != 0);
-
     }
     public  static void addStudent(){
         Student newStudent = new Student();
@@ -115,4 +111,21 @@ public class StudentManagerment  {
             System.out.println("Sinh viên bạn muốn cập nhật không có");
         }
     }
+    public static void sortAnphaB(){
+        students.sort(Comparator.comparing(Student::getStudentName));
+        displayStudent();
+
+    }
+
+    public static void sortPoint(){
+        Collections.sort(students,(Comparator.comparing(Student::getStudentName)));
+        displayStudent();
+
+    }
+    public static void sortPintMin(){
+        Collections.sort(students,(Comparator.comparing(Student::getStudentName)).reversed());
+        displayStudent();
+
+    }
 }
+
