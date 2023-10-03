@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d99d2403-aa01-479c-8ed7-575d12f4accf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SS10_BT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt6/run/StudentManagerment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt6/service/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt6/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,13 +49,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ra.bt5.Main">
-    <configuration name="ra.bt1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ra.bt1.Main" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ra.bt6.run" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StudentManagerment">
+    <configuration name="StudentManagerment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ra.bt6.run.StudentManagerment" />
       <module name="SS10_BT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ra.bt1.*" />
+          <option name="PATTERN" value="ra.bt6.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentManagerment" />
         <item itemvalue="Application.ra.bt5.Main" />
         <item itemvalue="Application.ra.bt4.Main" />
         <item itemvalue="Application.ra.bt3.Main" />
         <item itemvalue="Application.ra.bt2.Main" />
-        <item itemvalue="Application.ra.bt1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696239228525</updated>
       <workItem from="1696239229592" duration="3534000" />
-      <workItem from="1696261631692" duration="2577000" />
+      <workItem from="1696261631692" duration="8643000" />
     </task>
     <servers />
   </component>
