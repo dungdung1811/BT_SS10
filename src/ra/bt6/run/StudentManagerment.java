@@ -116,14 +116,15 @@ public class StudentManagerment  {
         displayStudent();
 
     }
-
+// xap xep tang dan
     public static void sortPoint(){
-        Collections.sort(students,(Comparator.comparing(Student::getStudentName)));
+        Collections.sort(students,(Comparator.comparing(Student::getMark)));
         displayStudent();
 
     }
+//    xap giam dan
     public static void sortPintMin(){
-        Collections.sort(students,(Comparator.comparing(Student::getStudentName)).reversed());
+        Collections.sort(students,(Comparator.comparing(Student::getMark)).reversed());
         displayStudent();
 
     }
